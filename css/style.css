@@ -1,5 +1,5 @@
 :root {
-    --primaryText: #fff;
+    --primaryText: #ffffff;
     --secondaryText: #d5b1df;
     --primary: rgba(7, 30, 16, 0.6);
     --secondary: rgba(248, 194, 244, 0.6); 
@@ -26,7 +26,7 @@ body {
     min-height: 100%;
     /* The image used for the site background. Try changing skyscape.jpg to stars.jpg. Put a replacement photo in the images folder and, in line 21 below, replace skyscape.jpg with yourbackgroundfilename.jpg */
     /* The linear gradient darkens the image, like putting a sunglasses lens on top of it. If you want to darken the image even more, change 0.1 (both times) to 0.3 or higher */
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/naturebackground2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/naturebackground2.jpg);
     /* Prevents the browser from repeating or "tiling" the background image */
     background-repeat: no-repeat;
     background-position: center;
